@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mybot
+    env: node
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: TOKEN
+        value: "<8555592065:AAH0TaIhPe2GKcHGYMQu2A4seO55ijSrsqk>"
